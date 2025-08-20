@@ -25,22 +25,24 @@ struct Tample
 inline Tample *getTamples()
 {
     static Tample midiHueArray[NUMBER_OF_TAMPLES]; // Static to retain data after the function call
-    midiHueArray[0] = Tample("red", 1, 5.0f, 8.0f, 0.75, 0.1, 0.67, 0.1);
-    midiHueArray[1] = Tample("purple", 2, 350.0f, 5.0f, 0.35, 0.1, 0.44, 0.1);
-    midiHueArray[2] = Tample("pink", 3, 358.0f, 8.0f, 0.48, 0.1, 0.5, 0.1);
-    midiHueArray[3] = Tample("orange", 4, 42.0f, 8.0f, 0.75, 0.1, 0.48, 0.1);
-    midiHueArray[4] = Tample("yellow", 5, 64.0f, 8.0f, 0.63, 0.1, 0.42, 0.1);
-    midiHueArray[5] = Tample("green", 6, 100.0f, 8.0f, 0.6, 0.1, 0.48, 0.1);
-    midiHueArray[6] = Tample("lightgreen", 7, 92.0f, 8.0f, 0.42, 0.1, 0.42, 0.1);
-    midiHueArray[7] = Tample("blue", 8, 210.0f, 8.0f, 0.53, 0.1, 0.44, 0.1);
-    midiHueArray[8] = Tample("turquoise", 9, 155.0f, 8.0f, 0.45, 0.1, 0.42, 0.1);
-    midiHueArray[9] = Tample("lightblue", 10, 125.0f, 8.0f, 0.33, 0.1, 0.41, 0.1);
-    midiHueArray[10] = Tample("white", 11, 82.0f, 2.0f, 0.32, 0.01, 0.38, 0.1);      // TODO
-    midiHueArray[11] = Tample("lightgray", 12, 76.0f, 3.0f, 0.28, 0.05, 0.38, 0.1);
-    midiHueArray[12] = Tample("darkgray", 13, 85.0f, 5.0f, 0.25, 0.1, 0.38, 0.1); //TODO: this color cannot be recognized
-    midiHueArray[13] = Tample("olivegray", 14, 68.0f, 6.0f, 0.42, 0.1, 0.38, 0.1);
-    midiHueArray[14] = Tample("beige", 15, 54.0f, 8.0f, 0.48, 0.1, 0.38, 0.1);
-    midiHueArray[15] = Tample("brown", 16, 30.0f, 8.0f, 0.55, 0.1, 0.46, 0.1);
+    midiHueArray[0] = Tample("red", 1, 5.0f, 5.0f, 0.75, 0.1, 0.67, 0.1);
+    midiHueArray[1] = Tample("purple", 2, 354.0f, 5.0f, 0.50, 0.1, 0.50, 0.1);
+    midiHueArray[2] = Tample("pink", 3, 357.0f, 8.0f, 0.64, 0.1, 0.57, 0.1);
+    midiHueArray[3] = Tample("orange", 4, 30.0f, 8.0f, 0.75, 0.1, 0.52, 0.1);
+    midiHueArray[4] = Tample("yellow", 5, 40.0f, 5.0f, 0.71, 0.1, 0.46, 0.1);
+    midiHueArray[5] = Tample("green", 6, 85.0f, 8.0f, 0.6, 0.1, 0.44, 0.1);
+    midiHueArray[6] = Tample("lightgreen", 7, 62.0f, 8.0f, 0.4, 0.1, 0.4, 0.1);
+    midiHueArray[7] = Tample("blue", 8, 210.0f, 8.0f, 0.37, 0.1, 0.39, 0.1);
+    midiHueArray[8] = Tample("turquoise", 9, 135.0f, 8.0f, 0.3, 0.1, 0.42, 0.1);
+    midiHueArray[9] = Tample("lightblue", 10, 88.0f, 5.0f, 0.33, 0.1, 0.41, 0.1);
+
+    midiHueArray[10] = Tample("white", 11, 40, 5, 0.4, 0.05, 0.4, 0.1);
+    midiHueArray[11] = Tample("lightgray", 12, 39.0f, 3.0f, 0.4, 0.05, 0.38, 0.1);
+    midiHueArray[11] = Tample("mossgreen", 11, 80, 5, 0.38f, 0.1f, 0.41f, 0.1f);
+    midiHueArray[12] = Tample("orangebrown", 12, 15.0f, 4.0f, 0.75, 0.1, 0.58, 0.1);
+    midiHueArray[13] = Tample("olivegray", 14, 40.0f, 5.0f, 0.5, 0.05, 0.4, 0.05);
+    midiHueArray[14] = Tample("beige", 15, 32.0f, 5.0f, 0.6, 0.1, 0.45, 0.1);
+    midiHueArray[15] = Tample("brown", 16, 20.0f, 5.0f, 0.6, 0.1, 0.5, 0.1);
 
     return midiHueArray; // Return the array
 }
